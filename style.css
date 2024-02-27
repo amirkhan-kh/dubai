@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.moon{
+    width: 5500px;
+    height: 900px;
+    z-index: 1;
+    background-image: url(./desert.png);
+    opacity: 0.9;
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
+    color: transparent;
+    background-size: 100%;
+    
+    margin-top: 1462px;
+    margin-left: 10px;
+    position: absolute;
+    clip-path: polygon(12% 32%, 25% 27%, 36% 32%, 50% 27%, 64% 31%, 74% 25%, 94% 30%, 100% 25%, 100% 100%, 0 100%, 0 26%);
+
+    
+}
+.luna{
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    width: 1700px; 
+    height: 1700px;
+    margin-left: 100px;
+    position: absolute;
+    left: 1390px;
+    top: 510px;
+    clip-path: circle(50% at 50% 50%);
+
+}
+.khalifa{
+    width: 400px;
+    height: 1700px;
+    background-color: rgba(10, 29, 75, 0.329);
+    margin-left: 1150px;
+    transform: translateX(370%);
+    transform: translateY(10%);
+    position: absolute;
+    top: -110px;
+    left: 1060px;
+    clip-path: polygon(40% 35%, 46% 34%, 48% 13%, 50% 0, 53% 22%, 57% 25%, 59% 57%, 63% 59%, 66% 100%, 32% 100%, 32% 75%, 38% 75%);
+    
+}
+.dom{
+    width: 220px;
+    height: 900px;
+    border: 20px double rgba(59, 58, 58, 0.082);
+    background-color: rgba(165, 216, 165, 0.692);  
+    position: absolute;
+    top: 850px;
+    left: 2550px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0% 75%, 0% 25%);
+     
+}
+.box{
+    width: 210px;
+    height: 980px;
+
+    position: absolute;
+    left: 2518px;
+    top: 1338px;
+}
+.box2{
+    position: absolute;
+    left: 2470px;
+    top: 1348px;
+}
+.bank{
+    background-color: rgba(61, 134, 116, 0.445);
+    width: 420px;
+    height: 900px;
+    border: 37px groove rgba(78, 78, 185, 0.363);
+    clip-path: polygon(21% 17%, 23% 8%, 26% 0, 76% 0, 78% 8%, 80% 17%, 82% 31%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 18% 32%);
+    position: absolute;
+    top: 850px;
+    left: 1850px;
+    
+}
+.left{
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+}
+.arab{
+    width: 560px;
+    height: 1000px;
+    background-color: rgba(18, 18, 207, 0.226);
+    clip-path: polygon(33% 55%, 40% 32%, 59% 14%, 69% 7%, 88% 0, 88% 15%, 100% 16%, 88% 18%, 88% 100%, 43% 100%, 40% 88%, 37% 75%);
+    position: absolute;
+    left: 1350px;
+    top: 750px;
+}
+.left1{
+    position: absolute;
+    top: 1460px;
+    left: 3600px;
+    width: 300px;
+    height: 275px;
+    background-color: rgba(184, 135, 11, 0.548);
+    clip-path: polygon(9% 18%, 21% 18%, 21% 10%, 82% 10%, 81% 4%, 92% 4%, 92% 1%, 100% 1%, 100% 100%, 0 100%, 0 27%, 9% 27%);
+}
+.left2{
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    background-color: rgba(184, 135, 11, 0.548);
+    left: 3900px;
+    top: 1410px;
+    clip-path: polygon(8% 15%, 59% 15%, 59% 9%, 64% 4%, 69% 8%, 89% 8%, 93% 0, 100% 0, 100% 100%, 0 100%, 0 15%, 4% 3%);
+}
+.center{
+    position: absolute;
+    left: 4232px;
+    top: 1260px;
+    height: 437px;
+    width: 100px;
+    background-color: rgba(184, 135, 11, 0.548);
+    clip-path: polygon(7% 15%, 20% 14%, 40% 0, 63% 0, 79% 12%, 92% 13%, 92% 20%, 85% 20%, 85% 100%, 15% 100%, 15% 22%, 8% 21%);
+}
+.center2{
+    position: absolute;
+    left: 4597px;
+    top: 1260px;
+    height: 460px;
+    width: 100px;
+    background-color: rgba(184, 135, 11, 0.548);
+    clip-path: polygon(7% 15%, 20% 14%, 40% 0, 63% 0, 79% 12%, 92% 13%, 92% 20%, 85% 20%, 85% 100%, 15% 100%, 15% 22%, 8% 21%);
+}
+.arc{
+    position: absolute;
+    height: 378px;
+    width: 300px;
+    background-color: rgba(184, 135, 11, 0.548);
+    left: 4315px;
+    top: 1330px;
+    clip-path: polygon(0% 15%, 34% 14%, 50% 1%, 64% 14%, 100% 15%, 100% 100%, 67% 100%, 68% 62%, 50% 31%, 32% 62%, 33% 100%, 0 100%);
+}
+.right2{
+    position: absolute;
+    height: 310px;
+    width: 350px;
+    background-color: rgba(184, 135, 11, 0.548);
+    left: 4680px;
+    top: 1415px;
+    clip-path: polygon(12% 6%, 40% 6%, 44% 0, 49% 5%, 49% 11%, 91% 11%, 95% 0, 100% 11%, 100% 100%, 0 100%, 0 0, 7% 0);
+
+    
+}
+.right1{
+    position: absolute;
+    top: 1465px;
+    width: 320px;
+    height: 280px;
+    background-color: rgba(184, 135, 11, 0.548);
+    left: 5020px;
+    clip-path: polygon(9% 7%, 68% 7%, 80% 7%, 80% 19%, 91% 19%, 91% 28%, 100% 28%, 100% 77%, 100% 100%, 0 100%, 0 2%, 10% 2%);
+}
+.trapet{
+    position: absolute;
+    left: 2475px;
+    top: 788px;
+    width: 20px;
+    height: 550px;
+    border: 185px solid rgba(149, 165, 184, 0.247) ;
+    background-color: rgba(165, 216, 165, 0.692);
+    clip-path: polygon(51% 11%, 82% 55%, 51% 100%, 20% 55%);
+    
+    
+    
+    
+}
+.flag{
+    width: 700px;
+    height: 1400px;
+    position: absolute;
+    left: 1490px;
+    top: 840px;
+    transform: rotate(-3deg);
+    background-color:rgba(15, 168, 133, 0.705);
+    clip-path: polygon(50% 0%, 43% 62%, 19% 60%, 16% 56%, 13% 46%, 12% 34%, 15% 22%, 23% 12%, 35% 4%);
+    box-shadow: rgba(255, 255, 255, 0.17) 0px -23px 25px 300px inset, rgba(255, 255, 255, 0.15) 1000px -36px 300px 300px inset, rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 100px 2px 81px, rgba(255, 255, 255, 0.09) 100px 84px 82px, rgba(0, 0, 0, 0.09) 100px 88px 84px, rgba(255, 254, 254, 0.09) 100px 86px 88px, rgba(255, 255, 255, 0.09) 100px 82px 86px;
+    
+}
+.column1{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(228, 224, 224);
+    top: 1570px;
+    left: 1600px;
+}
+.column2{
+    position: absolute;
+    width: 230px;
+    height: 25px;
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #cec3c3;
+
+
+     top: 1199px;
+     left: 1570px;
+}
+.column3{
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+
+     top: 980px;
+     left: 1643px;
+     border-top-left-radius: 20px;
+}
+.column4{
+    position: absolute;
+    width: 235px;
+    height: 25px;
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+
+     left: 1570px;
+     top: 1380px;
+
+}
+.column5{
+    position: absolute;
+    width: 295px;
+    height: 15px;
+
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+
+     left: 1545px;
+     top: 1090px;
+     transform: rotate(-42deg);
+     border-top-right-radius: 50px;
+     border-bottom-left-radius: 50px;
+    
+}
+.column6{
+    position: absolute;
+    width: 265px;
+    height: 15px;
+    
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+
+
+     top: 1300px;
+     left: 1545px;
+     transform: rotate(35deg);
+     border-top-left-radius: 70px;
+     border-bottom-right-radius: 70px;
+}
+.column7{
+    position: absolute;
+    width: 265px;
+    height: 15px;
+    
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+    
+     top: 1470px;
+     left: 1568px;
+     transform: rotate(-38deg);
+}
+.column8{
+    position: absolute;
+    width: 125px;
+    height: 15px;
+    
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+
+     left: 1690px;
+     top: 930px;
+     transform: rotate(38deg);
+     border-bottom-right-radius: 70px;
+}
+.column9{
+    position: absolute;
+    width: 1065px;
+    height: 45px;
+    border-top-right-radius: 70px;
+    
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+
+    transform: rotate(-90deg);
+    top: 1200px;
+    left: 1300px;
+}
+.column10{
+    position: absolute;
+    width: 355px;
+    height: 205px;
+    
+    
+     box-shadow: rgba(202, 199, 199, 0.17) 0px -23px 25px 0px inset, rgba(235, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(238, 222, 222, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px  rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     background-color: #dfd5d5;
+
+     clip-path: polygon(0 58%, 22% 58%, 39% 58%, 64% 58%, 85% 58%, 100% 59%, 100% 83%, 89% 89%, 87% 100%, 39% 100%, 47% 87%, 1% 61%);
+
+
+     top: 700px;
+     left: 1570px;
+     
+}
+.column11{
+    position: absolute;
+    top: 877px;
+    left: 1962px;
+    width: 200px;
+    height: 120px;
+    background-color: #fff;
+
+}
+.tower1{
+    position: absolute;
+    width: 150px;
+    height: 700px;
+    background-color: rgba(0, 0, 255, 0.274);
+
+    top: 1050px;
+    left: 1385px;
+
+
+    clip-path: polygon(38% 9%, 47% 5%, 50% 0, 54% 5%, 64% 9%, 78% 12%, 100% 24%, 100% 100%, 0 100%, 0 25%, 21% 12%);
+
+}
+.tower2{
+    position: absolute;
+    width: 150px;
+    height: 500px;
+    background-color: rgb(63, 188, 197);   
+    clip-path: polygon(38% 9%, 47% 5%, 50% 0, 54% 5%, 64% 9%, 78% 12%, 100% 24%, 100% 100%, 0 100%, 0 25%, 21% 12%);
+    z-index: 0;
+    left: 1850px;
+    top: 1250px;
+}
+.tower3{
+    position: absolute;
+    width: 150px;
+    height: 800px;
+    background-color: rgb(117, 117, 172);   
+    clip-path: polygon(38% 9%, 47% 5%, 50% 0, 54% 5%, 64% 9%, 78% 12%, 100% 24%, 100% 100%, 0 100%, 0 25%, 21% 12%);
+    z-index: 0;
+    top: 950px;
+    left: 400px;
+}
+.tower4{
+    position: absolute;
+    width: 150px;
+    height: 900px;
+    background-color: rgb(160, 138, 92);   
+    clip-path: polygon(39% 0, 100% 50%, 100% 99%, 0% 100%, 0 51%, 0% 0%);
+
+    top: 850px;
+    left: 800px;
+}
+.tower5{
+    position: absolute;
+    width: 150px;
+    height: 500px;
+    background-color: rgba(152, 152, 192, 0.534);  
+
+    clip-path: polygon(15% 38%, 22% 14%, 81% 0, 85% 0%, 85% 47%, 85% 67%, 94% 68%, 100% 77%, 100% 100%, 0 100%, 0 72%, 0 38%);
+
+    top: 1250px;
+    left: 950px;
+
+}
+.tower6{
+    position: absolute;
+    width: 220px;
+    height: 500px;
+    background-color: rgb(152, 152, 192);
+
+    clip-path: polygon(21% 51%, 31% 18%, 34% 0, 68% 0, 69% 15%, 79% 49%, 90% 16%, 92% 79%, 85% 100%, 15% 100%, 9% 79%, 10% 20%);
+
+    top: 1230px;
+    left: 1200px;
+}
+.tower7{
+    position: absolute;
+    width: 200px;
+    height: 900px;
+    background-color: rgb(192, 152, 171);
+
+    clip-path: polygon(18% 10%, 32% 9%, 33% 0, 68% 0, 68% 7%, 80% 8%, 80% 26%, 100% 26%, 100% 100%, 0 100%, 0 29%, 17% 29%);
+    z-index: -1;
+    top: 830px;
+    left: 1100px;
+
+
+}
+.tower8{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background-color: rgb(158, 146, 152);
+
+    clip-path: polygon(0% 0%, 0% 100%, 9% 100%, 9% 10%, 90% 10%, 90% 92%, 7% 92%, 0 100%, 100% 100%, 100% 0%);
+
+    left: 2700px;
+    top: 1470px;
+}
+.tower9{
+    position: absolute;
+    width: 200px;
+    height: 550px;
+    background-color: rgba(27, 109, 216, 0.247);
+
+    clip-path: polygon(11% 47%, 18% 46%, 19% 15%, 45% 15%, 46% 35%, 77% 35%, 77% 8%, 100% 1%, 100% 100%, 0 99%, 0 0, 11% 0);
+    z-index: -1;
+
+    left: 500px;
+    top: 1200px;
+}
+
+.path{
+    width: 5500px;
+    height: 400px;
+    background-color: rgb(36, 24, 48);
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+}
+.pathtop{
+    width: 5500px;
+    height: 300px;
+    background-color: rgb(36, 24, 48);
+    position: absolute;
+    bottom: 200px;
+    z-index: 1;
+    
+    
+}
+.car{
+    position: absolute;
+    top: 10px;
+
+    left: 0;
+    background-color: yellow;
+    width: 1200px;
+    height: 800px;
+
+    clip-path: polygon(46% 39%, 46% 44%, 67% 45%, 54% 37%, 73% 44%, 94% 52%, 92% 56%, 92% 59%, 79% 61%, 19% 59%, 6% 53%, 8% 43%);
+
+
+
+}
+.line{
+    width: 5500px;
+    height: 30px;
+    
+    margin-top: 200px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.lineblck{
+    width: 50px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+.linegreen{
+    width: 50px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+.balon{
+    width: 1000px;
+    height: 300px;
+    border: 2px solid white;
+    column-gap: 50px;
+}
+.shina{
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+}
